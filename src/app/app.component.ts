@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practice7';
+  display=false
+  books=[
+    {name:'app.net',price:'25'},
+    {name:'app.net',price:'25'},
+    {name:'app.net',price:'25'},
+    {name:'app.net',price:'25'},
+  ];
 }
